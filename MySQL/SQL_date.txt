@@ -1,0 +1,43 @@
+
+create database Project
+
+create table accountholder
+(AccountNo int not null,
+Name char(30) not null unique,
+Balance int not null,
+Email char(30),
+DateOfJoining date,
+AccountType char(20) not null,
+Password char(30) not null,
+Primary key (AccountNo));
+
+create table admin
+(adm_no int not null,
+name char(30) not null,
+password char(30) not null);
+
+create table loan(
+Account_no int not null,
+Loan_type char(30) not null,
+Loaned_ammount int not null,
+interest int not null,
+date_of_withdrawal date not null,
+date_of_repayment date not null,
+repayment_ammount int,
+installments int,
+foreign key (Account_no) references accountholder(accountno));
+
+
+CREATE TRIGGER date before INSERT
+ON loan
+FOR EACH ROW 
+SET NEW.installments=abs(round(datediff(new.date_of_withdrawal,new.date_of_repayment)/30,0));
+
+create table transaction
+(AccountWithdraw int not null,
+AccountDeposit int not null,
+Amount int not null,
+TransactionType char(20),
+Time timestamp default CURRENT_TIMESTAMP);
+
+

@@ -7,7 +7,7 @@ The project is a python program which is used to manage the internal workings of
 # Functionality of the Application
 The customer can use the bank management system to deposit and withdraw money from their account, apply for a loan and transfer money into an account via their account number. The employee can login into their account and setup accounts for customers check the transactions which are conducted in the bank and repay of loan.
 <p align="center">
-  <img src="images/Flow_chart"/>
+  <img src="images/Flow_chart.png"/>
 </p>
 
 # Backend of Application

@@ -7,6 +7,7 @@ The project is a python program which is used to manage the internal workings of
 <img src="images/Admin.png" align = "left">
 <img src="images/Account.png" align = "right">
 
+<br>
 <h2> Functionality of the Application </h2>
 
 <p>

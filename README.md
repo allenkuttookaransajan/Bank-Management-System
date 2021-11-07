@@ -19,6 +19,7 @@ The project is a python program which is used to manage the internal workings of
 <br>
 <br>
 <br>
+<br>
 
 <h2> Functionality of the Application </h2>
 

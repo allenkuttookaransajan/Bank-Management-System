@@ -1,8 +1,8 @@
 # Bank Management System
 The project is a python program which is used to manage the internal workings of the bank and uses MySQL to store the data of the clients and employees.
 <p float="left">
-  <img src="images/Admin.png" width="100" />
-  <img src="images/Account.pn" width="100" /> 
+  <img src="images/Admin.png" width="200" height = "200"/>
+  <img src="images/Account.png" width="200" height = "200" /> 
 </p>
 ## Functionality of the Application
 The customer can use the bank management system to deposit and withdraw money from their account, apply for a loan and transfer money into an account via their account number. The employee can login into their account and setup accounts for customers check the transactions which are conducted in the bank and repay of loan.

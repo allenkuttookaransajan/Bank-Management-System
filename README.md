@@ -2,8 +2,8 @@
 The project is a python program which is used to manage the internal workings of the bank and uses MySQL to store the data of the clients and employees.
 
 <p>
-  <img src="images/Admin.png" width="400" height = "400"/>
-  <img src="images/Account.png" width="400" height = "400" /> 
+  <img src="images/Admin.png" width="300" height = "300"/>
+  <img src="images/Account.png" width="300" height = "300" /> 
 </p>
 
 ## Functionality of the Application

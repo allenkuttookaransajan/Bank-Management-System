@@ -16,4 +16,4 @@ The MySQL server is used to retrieve and use the information taken from the inpu
 # License & copyright
 © Allen Kuttookaran Sajan
 
-Licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE.txt).

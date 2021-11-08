@@ -13,3 +13,7 @@ The customer can use the bank management system to deposit and withdraw money fr
 # Backend of Application
 The MySQL server is used to retrieve and use the information taken from the input in python. The mysql_connector module in python is used to transfer data to the server. There are four tables accountholder, admin, loan and transaction. These tables contain the information used to enter an account, create a transaction report and the loans which are due.
 
+# License & copyright
+© Allen Kuttookaran Sajan
+
+Licensed under the [MIT License](LICENSE).
